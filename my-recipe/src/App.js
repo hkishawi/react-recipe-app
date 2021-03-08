@@ -36,6 +36,22 @@ const App = () => {
 
   return (
     <div className='App'>
+      <div>
+        <table className='titleBar'>
+          <tbody>
+            <tr>
+              <td>
+                {/* <img alt="app icon" className="logoImg" src="" /> */}
+              </td>
+              <td className="titleContainer">
+                <h3 id="title">🌿 Garnish</h3>
+                <span id='link'><a href=''>home</a></span>
+                <span id='link'><a href=''>about</a></span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <form 
           onSubmit={getSearch} 
           className='search-form'
