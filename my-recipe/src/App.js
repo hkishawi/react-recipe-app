@@ -11,10 +11,6 @@ const App = () => {
   const [search, setSearch] = useState('');
   const [query, setQuery] = useState('')
 
-  useEffect(() => {
-    getRecipes();
-    // console.log('fetching')
-  }, [query]);
 
   const getRecipes = async () => {
     const response = await fetch(`https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=5&calories=591-722&health=alcohol-free`)
@@ -23,6 +19,11 @@ const App = () => {
     console.log(data.hits)
   }
 
+  useEffect(() => {
+    getRecipes();
+    // console.log('fetching')
+  }, [query]);
+  
   const updateSearch = e => {
     setSearch(e.target.value)
     // console.log(search)
