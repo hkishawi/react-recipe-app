@@ -1,6 +1,6 @@
-# Your Recipe guide  
+# 🌿 Garnish 🌿
 ## Built with React using the Edamam API; styled with CSS
 
-### A website designed to answer one of our most profound questions
+### A website designed to answer the world's most profound question:
 ### "What's for dinner??" 🤷
 
