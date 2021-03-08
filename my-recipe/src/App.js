@@ -9,7 +9,7 @@ const App = () => {
  
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState('');
-  const [query, setQuery] = useState('chicken')
+  const [query, setQuery] = useState('')
 
   useEffect(() => {
     getRecipes();
@@ -46,16 +46,19 @@ const App = () => {
           value={search}
           onChange={updateSearch} 
         />
-        <button className='seach-button' type='submit'>search</button>
+        <button className='search-button' type='submit'>search</button>
       </form>
-      {recipes.map(recipe =>(
-        <Recipe 
-          key={recipe.recipe.image}
-          title={recipe.recipe.label} 
-          calories={recipe.recipe.calories}
-          image={recipe.recipe.image}
-        />
-      ))}
+        <div className='recipes'>
+        {recipes.map(recipe =>(
+          <Recipe 
+            key={recipe.recipe.label}
+            title={recipe.recipe.label} 
+            calories={recipe.recipe.calories.toFixed(2)}
+            ingredients={recipe.recipe.ingredients}
+            image={recipe.recipe.image}
+          />
+        ))}
+        </div>
     </div>
   ); 
 }
