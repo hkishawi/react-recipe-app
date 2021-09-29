@@ -48,8 +48,18 @@ const App = () => {
                 <h3 id="title">🌿 Garnish®</h3>
                 <span id='link'><a href=''>home</a></span>
                 <span id='link'><a href=''>about</a></span>
-              </td>
-            </tr>
+                  <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="#">Option 1</a>
+                  <a href="#">Option 2</a>
+                  <a href="#">Option 3</a>
+                  <a href="https://www.google.com">Option quatro</a>
+                </div>
+              </td>       
+              
+</div>
+</tr>
           </tbody>
         </table>
       </div>
