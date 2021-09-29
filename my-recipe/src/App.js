@@ -56,9 +56,10 @@ const App = () => {
                   <a href="#">Option 3</a>
                   <a href="https://www.google.com">Option quatro</a>
                 </div>
+                </div>
               </td>       
               
-</div>
+
 </tr>
           </tbody>
         </table>
