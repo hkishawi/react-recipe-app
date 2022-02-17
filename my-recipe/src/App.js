@@ -49,8 +49,9 @@ const App = () => {
                 <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/owsfdh4gxyc" frameborder="0" allowfullscreen></iframe>
                 </td>
                 <h3 id="title">🌿 Garnish®</h3>
-                <span id='link'><a href=''>home</a></span>
-                <span id='link'><a href=''>about</a></span>
+                <span id='link_1' class="nav_link"><a href=''>home</a></span>
+                <span id='link_2' class="nav_link"><a href=''>about</a></span>
+                <span id='link_3' class="nav_link"><a href='https://www.google.com'>google</a></span>
                   <div class="dropdown">
                 <button class="dropbtn">Dropdown</button>
                 <div class="dropdown-content">
