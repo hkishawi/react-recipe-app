@@ -41,14 +41,12 @@ const App = () => {
         <table className='titleBar'>
           <tbody>
             <tr>
-              <td>
+              
               <td>
                 {/* <img alt="app icon" className="logoImg" src="" /> */}
               </td>
               <td className="titleContainer">
-                </td>
-                <iframe class="iframe" width="560" height="315" src="https://www.youtube.com/embed/owsfdh4gxyc" frameborder="0" allowfullscreen></iframe>
-                </td>
+              </td>
                 <h3 id="title">🌿 Garnish®</h3>
                 <div><span id='link_1' class="nav_link"><a href=''>home</a></span></div>
                 <div><span id='link_2' class="nav_link"><a href=''>about</a></span></div>
