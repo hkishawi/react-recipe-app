@@ -47,7 +47,7 @@ const App = () => {
               </td>
               <td className="titleContainer">
               </td>
-                <h3 id="title">🌿 Garnish®</h3>
+                <h3 id="title" date-foo="title-foo">🌿 Garnish®</h3>
                 <div><span id='link_1' class="nav_link"><a href=''>home</a></span></div>
                 <div><span id='link_2' class="nav_link"><a href=''>about</a></span></div>
                 <div><span id='link_3' class="nav_link"><a href='https://www.google.com'>google</a></span></div>
