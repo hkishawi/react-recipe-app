@@ -51,15 +51,15 @@ const App = () => {
                 <div><span id='link_1' class="nav_link"><a href=''>home</a></span></div>
                 <div><span id='link_2' class="nav_link"><a href=''>about</a></span></div>
                 <div><span id='link_3' class="nav_link"><a href='https://www.google.com'>google</a></span></div>
-                  <div class="dropdown">
+              <div class="dropdown">
                 <button class="dropbtn">Dropdown</button>
                 <div class="dropdown-content">
-                  <a href="#">Option 1</a>
-                  <a href="#">Option 2</a>
-                  <a href="#">Option 3</a>
-                  <a href="https://www.google.com">Option quatro</a>
-                </div>
-                </div>
+                  <button class="dropdown-option" type="button"><a href="https://www.npr.org/">Option 1</a></button>
+                  <button class="dropdown-option" type="button"><a href="https://www.google.com/search?q=star+wars&source=hp&ei=20ZAY8XOEIPcptQP8MKkuA4&iflsig=AJiK0e8AAAAAY0BU650z18KjQkbskrrOGHPWEE5AfCaG&ved=0ahUKEwiFqL3JuM76AhUDrokEHXAhCecQ4dUDCAk&uact=5&oq=star+wars&gs_lcp=Cgdnd3Mtd2l6EAMyCAgAEIAEELEDMggIABCABBCxAzIICAAQgAQQsQMyBQgAEIAEMgsILhCABBCxAxCDATILCC4QgAQQsQMQ1AIyCwguEIAEELEDENQCMggILhCABBCxAzILCC4QgAQQsQMQ1AIyCAguEIAEELEDOgsIABCABBCxAxCDAToLCC4QgAQQxwEQ0QM6CAguELEDEIMBOgsILhCxAxCDARDUAjoRCC4QgAQQsQMQgwEQxwEQ0QM6DgguEIAEELEDEMcBENEDOgsIABCABBCxAxDJAzoICAAQsQMQgwE6CwguEIAEEMcBEK8BOg4ILhCABBDHARCvARDUAjoFCC4QgARQAFiICGCMCWgAcAB4AIAB0gGIAbUKkgEFMC43LjGYAQCgAQE&sclient=gws-wiz">Option 2</a></button>
+                  <button class="dropdown-option" type="button"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">Option 3</a></button>
+                  <button class="dropdown-option" type="button"><a href="https://www.google.com">Option quatro</a></button>
+              </div>
+              </div>
           </tr>
           </tbody>
         </table>
