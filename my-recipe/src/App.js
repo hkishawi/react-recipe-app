@@ -51,7 +51,7 @@ const App = () => {
                 <div><span id='link_1' class="nav_link"><a href=''>home</a></span></div>
                 <div><span id='link_2' class="nav_link"><a href=''>about</a></span></div>
                 <div><span id='link_3' class="nav_link"><a href='https://www.google.com'>google</a></span></div>
-                <div><spl-button><span id="spl-button-test" class="nav_link"><a href='https://www.google.com'>SPL-BUTTON</a></span></spl-button></div>
+                <div><span id="spl-button-test" class="nav_link"><spl-button><a href='https://www.google.com'>SPL-BUTTON</a></spl-button></span></div>
               <div class="dropdown">
                 <button class="dropbtn">Dropdown</button>
                 <div class="dropdown-content">
