@@ -87,6 +87,9 @@ const App = () => {
             image={recipe.recipe.image}
           />
         ))}
+        <div>
+        <button date-test-id="data-test-id" type="button">Custom HTML attribute</button>
+        </div>
         </div>
     </div>
   ); 
