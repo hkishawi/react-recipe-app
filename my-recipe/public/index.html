@@ -4,73 +4,22 @@
 <head>
     
 <script>
-        (function (apiKey) {
-            (function (p, e, n, d, o) {
-                var v, w, x, y, z;
-                o = p[d] = p[d] || {};
-                o._q = o._q || [];
-                v = ['initialize', 'identify', 'updateOptions', 'pageLoad', 'track'];
-                for (w = 0, x = v.length; w < x; ++w)(function (m) {
-                    o[m] = o[m] || function () {
-                        o._q[m === v[0] ? 'unshift' : 'push']([m].concat([].slice.call(arguments,
-                            0)));
-                    };
-                })(v[w]);
-                y = e.createElement(n);
-                y.async = !0;
-                y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js';
-                z = e.getElementsByTagName(n)[0];
-                z.parentNode.insertBefore(y, z);
-            })(window, document, 'script', 'pendo');
-
-            // Call this whenever information about your visitors becomes available
-            // Please use Strings, Numbers, or Bools for value types.
-            pendo.initialize({
-                
-                visitor: {
-                    id: 'Onboarding-vis1',
-                    email: 'user_email',
-                    firstName: 'first_name',
-                    lastName: 'last_name',
-                },
-
-                account: {
-                    id: 'account_id',
-                    name: 'account_name',
-                    industry: 'account-industry',
-                    creationDate: 'create_date',
-                    contractStartDate: 'start_date',
-                    renewalDate: 'renewal_date',
-                    contractValue: 'contract_value',
-                    language: 'hamburger'
-                },
-                parentAccount: {
-                    id: '1230981238480958',
-                    name: 'PARENT-ACCOUNT-NAME',
-                    org: 'PENDO',
-                    type: true,
-                    component: 'PARENT||CHILD'
-                }
-            });
-        })('e79cd867-123232412312382132898218793');
-</script>
-<script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="2GJIOYxaqJ93BpCkVyOEbDCrU8EiwKJ5";;analytics.SNIPPET_VERSION="4.15.3";
   analytics.load("2GJIOYxaqJ93BpCkVyOEbDCrU8EiwKJ5");
   analytics.page();
   analytics.identify("segmentUser", {
-    name: "kirkland signature",
-    email: "ksignature@costco.com",
+    name: "hanny_visitor_segment",
+    email: "hanny_segment@segment.com
   });
   analytics.group("segmentAccount", {
-    name: "Initech",
-     industry: "wholesale",
-     employees: 100,
-     plan: "enterprise",
-     segmentMapping: "yes"
-   });
+    name: "hanny_account_segment", 
+    plan: "segment_acct_plan",
+    date: "may_the_fourth",
+    mapping: "yes_segment"
+  });
   }}();
 </script>
+
 
 <!-- Start of pendoio7688 Zendesk Widget script -->
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=c31717ab-4759-4b8b-918e-f167181e1553"> </script>
