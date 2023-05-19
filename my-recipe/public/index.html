@@ -3,48 +3,6 @@
 
 <head>
 <script>
-(function(apiKey){
-    (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=o._q||[];
-    v=['initialize','identify','updateOptions','pageLoad','track'];for(w=0,x=v.length;w<x;++w)(function(m){
-        o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
-        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/'+apiKey+'/pendo.js';
-        z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
-
-        // This function creates anonymous visitor IDs in Pendo unless you change the visitor id field to use your app's values
-        // This function uses the placeholder 'ACCOUNT-UNIQUE-ID' value for account ID unless you change the account id field to use your app's values
-        // Call this function after users are authenticated in your app and your visitor and account id values are available
-        // Please use Strings, Numbers, or Bools for value types.
-        pendo.initialize({
-            visitor: {
-                id:              '2023_summer_visitorId',    
-                email:        '2023_summer_visitorEmail', 
-                  full_name:    '2023_summer_visitorFullName', 
-                  role:         '2023_summer_visitorRole' 
-            },
-
-            account: {
-                id:           'ACCOUNT-UNIQUE-ID',  
-                  name:         '2023_summer_acctName', 
-                is_paying:   'True',  
-                 monthly_value: '2023_acctMonthVal',  
-                 planLevel:   '2023_acctPlanLvl',  
-                 planPrice:    '2023_acctPlanPrice', 
-                 creationDate: '2023_acctCreationDate' 
-
-            
-            },
-
-            parentAccount: {
-                id: '2023_parentAcctId',
-                 name: '2023_parentAcctName'          
-
-       
-            }
-        });
-})('e79cd867-0bfc-496f-666e-4b9287fe8cee');
-</script>    
-    
-<!--     <script>
   !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="2GJIOYxaqJ93BpCkVyOEbDCrU8EiwKJ5";;analytics.SNIPPET_VERSION="4.15.3";
   analytics.load("2GJIOYxaqJ93BpCkVyOEbDCrU8EiwKJ5");
   analytics.page();
@@ -59,7 +17,7 @@
     mapping: "yes_segment"
   });
   }}();
-</script> -->
+</script>
 
 
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
