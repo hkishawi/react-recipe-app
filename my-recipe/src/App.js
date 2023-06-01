@@ -60,14 +60,15 @@ const App = () => {
                   <button class="dropdown-option" type="button"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button">Option 3</a></button>
                   <button class="dropdown-option" type="button"><a href="https://www.google.com">Option quatro</a></button>
               </div>
-              <div class="html-attribute-class" id="html-attribute-id"> 
-              <button class="dropdown-option" type="button"><a href="https://garnish.netlify.app">HTML Attribute</a></button>
-              </div> 
               </div>
           </tr>
+
           </tbody>
         </table>
       </div>
+       <div class="html-attribute-class" id="html-attribute-id"> 
+              <button class="dropdown-option" type="button"><a href="https://garnish.netlify.app">HTML Attribute</a></button>
+       </div> 
       <form 
           onSubmit={getSearch} 
           className='search-form'
