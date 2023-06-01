@@ -66,8 +66,8 @@ const App = () => {
           </tbody>
         </table>
       </div>
-       <div class="html-attribute-class" id="html-attribute-id"> 
-              <button class="dropdown-option" type="button"><a href="https://garnish.netlify.app">HTML Attribute</a></button>
+       <div html-attribute-class="html-attribute-class_value" class="html-attribute-class" id="html-attribute-id"> 
+              <button html-attribute-id="html-attribute-id-value" class="dropdown-option" type="button"><a href="https://garnish.netlify.app">HTML Attribute</a></button>
        </div> 
       <form 
           onSubmit={getSearch} 
