@@ -48,9 +48,9 @@ const App = () => {
               <td className="titleContainer">
               </td>
                 <h3 id="title" date-foo="title-foo">🌿 Garnish®</h3>
-               <div><p><b>desk</b></p></div><br>
-                <div><p><b>stool</b></p></div><br>
-                <div><p><b>lamp</b></p></div><br>
+               <div><p><b>desk_____</b></p></div>
+                <div><p><b>stool_____</b></p></div>
+                <div><p><b>lamp_____</b></p></div>
                 <div id="desk"><span id='link_1' class="nav_link"><a href=''>home</a></span></div>
                 <div id="desk"><span id='link_2' class="nav_link"><a href=''>about</a></span></div>
                 <div id="desk"><span id='link_3' class="nav_link"><a href='https://www.google.com'>google</a></span></div>
