@@ -38,9 +38,6 @@ const App = () => {
   return (
     <div className='App'>
             <div>
-    <div><p><b>desk</b></p></div><br>
-     <div><p><b>stool</b></p></div><br>
-     <div><p><b>lamp</b></p></div><br>
         <table className='titleBar' data-hanny="hanny_test">
           <tbody>
             <tr>
@@ -51,6 +48,9 @@ const App = () => {
               <td className="titleContainer">
               </td>
                 <h3 id="title" date-foo="title-foo">🌿 Garnish®</h3>
+               <div><p><b>desk</b></p></div><br>
+                <div><p><b>stool</b></p></div><br>
+                <div><p><b>lamp</b></p></div><br>
                 <div id="desk"><span id='link_1' class="nav_link"><a href=''>home</a></span></div>
                 <div id="desk"><span id='link_2' class="nav_link"><a href=''>about</a></span></div>
                 <div id="desk"><span id='link_3' class="nav_link"><a href='https://www.google.com'>google</a></span></div>
