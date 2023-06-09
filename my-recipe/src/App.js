@@ -38,6 +38,9 @@ const App = () => {
   return (
     <div className='App'>
             <div>
+    <div><p><b>desk</b></p></div><br>
+     <div><p><b>stool</b></p></div><br>
+     <div><p><b>lamp</b></p></div><br>
         <table className='titleBar' data-hanny="hanny_test">
           <tbody>
             <tr>
