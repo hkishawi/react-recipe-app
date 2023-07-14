@@ -48,6 +48,7 @@ const App = () => {
               <td className="titleContainer">
               </td>
                 <h3 id="title" date-foo="title-foo">🌿 Garnish®</h3>
+                <h3 data-hanny="hannyTitle">Custom HTML Attribute Title</h3>
                <div id="desk"><p><b>desk_____</b></p></div>
                 <div id="desk"><p><b>stool_____</b></p></div>
                 <div id="desk"><p><b>lamp_____</b></p></div>
