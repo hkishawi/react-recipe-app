@@ -39,7 +39,7 @@ const App = () => {
     <div className='App'>
             <div>
         <table className='titleBar' data-hanny="hanny_test">
-          <tbody>
+          <tbody data-hanny="hanny_tbody">
             <tr data-hanny="hanny_tr">
               
               <td>
