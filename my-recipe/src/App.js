@@ -40,7 +40,7 @@ const App = () => {
             <div>
         <table className='titleBar' data-hanny="hanny_test">
           <tbody>
-            <tr>
+            <tr data-hanny="hanny_tr">
               
               <td>
                 {/* <img alt="app icon" className="logoImg" src="" /> */}
