@@ -24,7 +24,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         // This function uses the placeholder 'ACCOUNT-UNIQUE-ID' value for account ID unless you change the account id field to use your app's values
         // Call this function after users are authenticated in your app and your visitor and account id values are available
         // Please use Strings, Numbers, or Bools for value types.
-   pendo.stopSendingEvents();
+ 
         pendo.initialize({
             visitor: {
                 id: "",   
@@ -59,6 +59,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                           //  excludeAllText: null,
         });
+   pendo.stopSendingEvents();
  
 })('e79cd867-0bfc-496f-666e-4b9287fe8cee');
 
