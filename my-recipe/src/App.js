@@ -85,7 +85,7 @@ const App = () => {
         />
         <button className='search-button' type='submit'>search</button>
       </form>
-        <div className='recipes'>
+        <div className='recipes recipeForm-12345'>
         {recipes.map(recipe =>(
           <Recipe 
             key={recipe.recipe.label}
